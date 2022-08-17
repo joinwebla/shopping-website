@@ -25,6 +25,7 @@ function App() {
       />
       <Routes>
         {/* Public route */}
+        <Route index element={token ? <Navigate to="/feed" /> : <Login />} />
         <Route path="/login" index element={token ? <Navigate to="/feed" /> : <Login />} />
         <Route path="/signup" element={token ? <Navigate to="/feed" /> : <Signup />} />
 
