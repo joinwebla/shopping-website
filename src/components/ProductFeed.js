@@ -62,7 +62,7 @@ export const ProductFeed = () => {
 
     return(
         <div>
-            <h1>This is a Product Feed</h1>
+            <h1>Welcome to Our Shopping Website</h1>
             <button className="btn btn-danger" onClick={handleLogout}>Logout</button>
 
             <div style={{position: 'fixed', top: 0, right: 0, margin: 20, padding: 10, border: '1px solid', zIndex: 999, backgroundColor: '#ffffff'}}>
